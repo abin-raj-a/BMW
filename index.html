@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BMW-Bayerische Motoren Werke</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg-primary-subtle text-primary-emphasis">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/bmw-m-logo-1CC2921034-seeklogo.com.png" alt="Bootstrap" width="30" height="30">
+                    BMW</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Msport</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Models
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cars</a></li>
+                                <li><a class="dropdown-item" href="#">Bikes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/ca-1.png" class="d-block w-100" alt="BMW_M3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ca-2.jpg" class="d-block w-100" alt="BMW_X6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ca-3.jpg" class="d-block w-100" alt="BMW_Z4_GT3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ca-4.jpg" class="d-block w-100" alt="BMW_M1000RR">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ca-5.jpg" class="d-block w-100" alt="BMW_M1000R">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ca-6.jpg" class="d-block w-100" alt="BMW_GS1200">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <h1 class="text-center mt-4 mb-4">BMW CARS</h1>
+        <section>
+            <div class="container">
+                <div class="row justify-content-around g-sm-3 g-md-5 g-lg-8">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/m3.jpg" class="card-img-top" alt="BMW M3">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW M3</h5>
+                                <p class="card-text">The BMW M3 is a high-performance sports sedan known for its
+                                    powerful engine, sharp handling, and dynamic styling.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWM3">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWM3" tabindex="-1" aria-labelledby="BMWM3" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW M3</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/m3.jpg" class="card-img-top" alt="BMW M3">
+                                        <div class="modal-body">
+                                            The BMW M3 is a high-performance version of the 3 Series, developed by BMW's
+                                            M division. Known for its thrilling driving experience, the M3 combines
+                                            exceptional power, precise handling, and a balanced design. Over the years,
+                                            it has evolved from the lightweight E30 with its iconic high-revving engine
+                                            to the modern G80, featuring a twin-turbocharged inline-six engine
+                                            delivering up to 503 horsepower. With advanced suspension, aggressive
+                                            styling, and a focus on driver engagement, the M3 is celebrated as one of
+                                            the best sports sedans, offering both track-ready performance and everyday
+                                            usability.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/m5.jpg" class="card-img-top" alt="BMW M5">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW M5</h5>
+                                <p class="card-text">The BMW M5 is a high-performance luxury sedan, featuring a powerful
+                                    engine, precise handling, and advanced technology for an exhilarating driving
+                                    experience..</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWM5">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWM5" tabindex="-1" aria-labelledby="BMWM5" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW M5</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/m5.jpg" class="card-img-top" alt="BMW M5">
+                                        <div class="modal-body">
+                                            The BMW M5 is a high-performance luxury sedan that combines immense power,
+                                            precision handling, and sophisticated design. Since its debut in 1984, it
+                                            has been the ultimate expression of the 5 Series, offering powerful
+                                            engines—like the current 617-horsepower 4.4-liter twin-turbo V8—and advanced
+                                            features such as the M xDrive all-wheel drive system. With its rapid
+                                            acceleration, superb driving dynamics, and luxurious interior, the M5
+                                            delivers a thrilling, track-capable experience while remaining a
+                                            comfortable, everyday sports sedan. It's a benchmark in the performance
+                                            sedan segment, known for its balance of speed, luxury, and technology.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/x6.jpg" class="card-img-top" alt="BMW X6">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW X6</h5>
+                                <p class="card-text">The BMW X6 is a stylish, high-performance luxury SUV, blending
+                                    sportiness with comfort, featuring powerful engines and advanced tech.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWX6">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWX6" tabindex="-1" aria-labelledby="BMWX6" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW X6</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/x6.jpg" class="card-img-top" alt="BMW X6">
+                                        <div class="modal-body">
+                                            The BMW X6 is a luxury midsize SUV that combines the rugged versatility of
+                                            an SUV with the sporty performance of a coupe, thanks to its distinctive
+                                            sloping roofline. First introduced in 2008, the X6 has become known for its
+                                            bold, athletic design and powerful performance. It offers a range of
+                                            engines, from turbocharged inline-sixes to robust V8s, providing impressive
+                                            acceleration and handling. With a premium interior, advanced technology, and
+                                            a range of driver assistance features, the X6 blends luxury and practicality
+                                            while offering a unique, performance-focused driving experience.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/x5.jpg" class="card-img-top" alt="BMW X5">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW X5</h5>
+                                <p class="card-text">The BMW X5 is a luxury SUV offering a blend of performance,
+                                    comfort, and advanced technology, with powerful engines and spacious, high-end
+                                    interiors.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWX5">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWX5" tabindex="-1" aria-labelledby="BMWX5" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW X5</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/x5.jpg" class="card-img-top" alt="BMW X5">
+                                        <div class="modal-body">
+                                            The BMW X5 is a luxury midsize SUV that combines performance, comfort, and
+                                            versatility. First launched in 1999, it offers a blend of powerful engine
+                                            options, including turbocharged six-cylinder and V8 engines, and advanced
+                                            driving technologies like optional all-wheel drive (xDrive). Known for its
+                                            refined interior, spacious cabin, and high-quality materials, the X5 also
+                                            comes equipped with cutting-edge infotainment and safety features. Whether
+                                            on city streets or off-road, the X5 delivers a dynamic driving experience
+                                            while providing the practicality and luxury expected from a premium SUV.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/z4.jpeg" class="card-img-top" alt="BMW Z4 GT3">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW Z4 GT3</h5>
+                                <p class="card-text">The BMW Z4 GT3 is a race-bred sports car, featuring a powerful
+                                    engine, lightweight design, and track-focused handling, built for high-performance
+                                    racing.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWZ4GT3">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWZ4GT3" tabindex="-1" aria-labelledby="BMWZ4GT3"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW Z4 GT3</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>                            
+                                        <img src="images/z4.jpeg" class="card-img-top" alt="BMW Z4 GT3">
+                                        <div class="modal-body">
+                                            The BMW Z4 GT3 is a high-performance race car based on the BMW Z4 roadster,
+                                            developed for motorsport competition. Introduced in 2010, the Z4 GT3
+                                            features a lightweight, race-tuned chassis and a powerful 4.0-liter V8
+                                            engine, producing around 500 horsepower. Designed for endurance racing and
+                                            GT championships, it combines exceptional aerodynamics, precise handling,
+                                            and advanced suspension systems. With its aggressive design, including a
+                                            wide stance and large rear wing, the Z4 GT3 has been a successful contender
+                                            in series like the FIA GT3 European Championship and the 24 Hours of
+                                            Nürburgring, earning a reputation for both speed and reliability on the
+                                            track.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/i4.jpg" class="card-img-top" alt="BMW i4">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW i4</h5>
+                                <p class="card-text">The BMW i4 is an all-electric sports sedan, combining performance,
+                                    luxury, and cutting-edge technology with impressive range and rapid acceleration.
+                                </p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWi4">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWi4" tabindex="-1" aria-labelledby="BMWi4" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW i4</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/i4.jpg" class="card-img-top" alt="BMW i4">
+                                        <div class="modal-body">
+                                            The BMW i4 is an all-electric luxury sedan that combines BMW’s signature
+                                            performance with zero-emission driving. Launched in 2021, the i4 offers
+                                            impressive range, with up to 300 miles on a single charge, depending on the
+                                            variant. It features a sleek, modern design and is available in different
+                                            performance levels, including the sporty M50 model with dual electric motors
+                                            delivering 536 horsepower and a 0-60 mph time of around 3.7 seconds. With a
+                                            high-tech interior, advanced infotainment system, and BMW’s driving
+                                            dynamics, the i4 provides an engaging, eco-friendly alternative to
+                                            traditional luxury sedans.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="text-center mt-4 mb-4">BMW BIKES</h1>
+        <section>
+            <div class="container">
+                <div class="row justify-content-around g-sm-3 g-md-5 g-lg-8">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/m1000rr.jpg" class="card-img-top" alt="BMW M 1000 RR">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW M 1000 RR</h5>
+                                <p class="card-text">The BMW M 1000 RR is a high-performance superbike, featuring
+                                    cutting-edge technology, aero enhancements, and extreme power for track and road
+                                    domination.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWM1000RR">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWM1000RR" tabindex="-1" aria-labelledby="BMWM1000RR"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="BMWM1000RR">BMWM1000RR</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/m1000rr.jpg" class="card-img-top" alt="BMW M 1000 RR">
+                                        <div class="modal-body">
+                                            The BMW M 1000 RR is a high-performance sportbike designed for track
+                                            enthusiasts and riders seeking exceptional speed and precision. Launched in
+                                            2020, it is BMW's flagship motorcycle, built with advanced aerodynamics,
+                                            lightweight materials, and a powerful 999cc inline-four engine that produces
+                                            around 205 horsepower. With cutting-edge features like carbon fiber
+                                            components, an adjustable suspension, and advanced electronics, including
+                                            traction control and multiple riding modes, the M 1000 RR delivers an
+                                            exhilarating ride on both the track and the road. Its combination of
+                                            top-tier engineering and racing heritage makes it one of the most formidable
+                                            superbikes in the world.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/s1000r.webp" class="card-img-top" alt="BMW S 1000 R">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW S 1000 R</h5>
+                                <p class="card-text">The BMW S 1000 R is a naked sportbike, delivering thrilling
+                                    performance, agile handling, and advanced tech, all in a lightweight, aggressive
+                                    design.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWS1000R">
+                                        Check out
+                                    </button>
+                                </div>
+                                <div class="modal fade" id="BMWS1000R" tabindex="-1" aria-labelledby="BMWS1000R"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">BMW S 1000 R</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <img src="images/s1000r.webp" class="card-img-top" alt="BMW S 1000 R">
+                                            <div class="modal-body">
+                                                The BMW S 1000 R is a naked sportbike that combines raw power with
+                                                agility and precision. Powered by the same 999cc inline-four engine as
+                                                the S 1000 RR, it delivers around 165 horsepower, offering an
+                                                exhilarating riding experience on both twisty roads and highways. With a
+                                                more upright riding position compared to the fully-faired S 1000 RR, the
+                                                S 1000 R provides comfort while retaining exceptional handling, advanced
+                                                electronics, and rider aids like traction control and multiple riding
+                                                modes. Its aggressive styling, lightweight design, and high-performance
+                                                features make it a versatile and thrilling machine for those seeking a
+                                                high-performance street bike.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Book Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/gs.jpeg" class="card-img-top" alt="BMW GS 1200">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW GS 1200</h5>
+                                <p class="card-text">The BMW GS 1200 is a rugged adventure touring motorcycle, known for
+                                    its powerful engine, off-road capabilities, and long-distance comfort.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWGS1200">
+                                        Check out
+                                    </button>
+                                </div>
+                                <div class="modal fade" id="BMWGS1200" tabindex="-1" aria-labelledby="BMWGS1200"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">BMW GS 1200</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <img src="images/gs.jpeg" class="card-img-top" alt="BMW GS 1200">
+                                            <div class="modal-body">
+                                                The BMW GS 1200, also known as the R 1200 GS, is a legendary adventure
+                                                touring motorcycle renowned for its rugged capability and versatility.
+                                                Introduced in 2004, the GS 1200 is powered by a 1,170cc boxer twin
+                                                engine, delivering a smooth and powerful ride both on and off the road.
+                                                Its durable design, advanced suspension system, and long-travel
+                                                suspension make it ideal for tackling challenging terrains, while its
+                                                comfortable ergonomics and tech features, like ride modes and ABS,
+                                                ensure a smooth journey on highways. The R 1200 GS has become a favorite
+                                                among adventure riders and long-distance travelers, known for its
+                                                reliability, performance, and ability to handle a wide range of riding
+                                                conditions.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Book Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/BMW_S-1000-XR.jpg" class="card-img-top" alt="BMW S 1000 XR">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW S 1000 XR</h5>
+                                <p class="card-text">The BMW S 1000 XR is a sport-touring motorcycle, offering a perfect
+                                    blend of performance, comfort, and versatility for both long rides and spirited
+                                    driving.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWS1000XR">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWS1000XR" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW S 1000 XR</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/BMW_S-1000-XR.jpg" class="card-img-top" alt="BMW S 1000 XR">
+                                        <div class="modal-body">
+                                            The BMW S 1000 XR is a versatile sport-touring motorcycle that blends
+                                            high-performance sportbike characteristics with the comfort and practicality
+                                            of an adventure bike. Powered by a 999cc inline-four engine, it produces
+                                            around 165 horsepower, offering thrilling acceleration and top-end
+                                            performance. With an upright, comfortable riding position, long-travel
+                                            suspension, and advanced electronics like traction control, ABS, and
+                                            multiple riding modes, the S 1000 XR is built for long-distance touring and
+                                            spirited riding on twisty roads. Its aggressive styling, combined with
+                                            excellent handling and a smooth ride, makes it a great option for riders
+                                            seeking an all-around capable and exhilarating machine.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/BMW-F-750-GS.jpg" class="card-img-top" alt="BMW F 750 GS">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW F 750 GS</h5>
+                                <p class="card-text">The BMW F 750 GS is a versatile adventure bike, offering a smooth
+                                    ride, off-road capabilities, and a comfortable design for both city and
+                                    long-distance journeys.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWF750GS">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWF750GS" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW F 750 GS</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/BMW-F-750-GS.jpg" class="card-img-top" alt="BMW F 750 GS">
+                                        <div class="modal-body">
+                                            The BMW F 750 GS is a versatile middleweight adventure bike designed for
+                                            riders who want a balance of on-road comfort and off-road capability.
+                                            Powered by a 853cc parallel-twin engine, it produces around 77 horsepower,
+                                            offering smooth and manageable power for a wide range of riding conditions.
+                                            With its lightweight design, adjustable suspension, and advanced electronics
+                                            like traction control and ABS, the F 750 GS is well-suited for both
+                                            beginners and experienced riders looking for an agile bike that can handle
+                                            dirt trails and highways alike. Its comfortable ergonomics, combined with a
+                                            robust and durable build, make it a great choice for adventure touring.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/g310.jpg" class="card-img-top" alt="BMW G 310">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW G 310</h5>
+                                <p class="card-text">The BMW G 310 is a lightweight, entry-level motorcycle, offering
+                                    agile handling, a stylish design, and great performance for city commuting and
+                                    beginner riders.</p>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#BMWG310">
+                                        Check out
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="BMWG310" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">BMW G 310</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <img src="images/g310.jpg" class="card-img-top" alt="BMW G 310">
+                                        <div class="modal-body">
+                                            The BMW G 310 is a lightweight, entry-level motorcycle designed for city
+                                            commuting and beginner riders. Powered by a 313cc single-cylinder engine, it
+                                            delivers around 34 horsepower, making it easy to handle and ideal for
+                                            navigating through traffic or tackling winding roads. With its compact
+                                            frame, agile handling, and modern styling, the G 310 offers a comfortable
+                                            and fun riding experience. Equipped with advanced features like a digital
+                                            display, high-quality suspension, and ABS, the G 310 is a versatile and
+                                            affordable option for those looking to experience the BMW brand in a
+                                            smaller, more accessible package.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="text-center mt-10 ">© 2024 BMW. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
